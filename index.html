@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    
+    <header class="header" id="home">
+        <div class="container container--relative">
+            <div class="circle wow animate__animated animate__fadeInRight">
+                <div class="circle__item circle__item--1">
+                    <p class="circle__item-text">
+                        &#60;/
+                    </p>
+                </div>
+                <div class="circle__item circle__item--2">
+                    <p class="circle__item-text">
+                        PS
+                    </p>
+                </div>
+                <div class="circle__item circle__item--3">
+                    <p class="circle__item-text">
+                        JS
+                    </p>
+                </div>
+                <div class="circle__item circle__item--4">
+                    <p class="circle__item-text">
+                        CSS
+                    </p>
+                </div>
+            </div>
+            <div class="header__top">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li>
+                            <a class="nav__link" href="#about">Обо мне</a>
+                        </li>
+                        <li>
+                            <a class="nav__link" href="#technology">Технологии</a>
+                        </li>
+                        <li>
+                            <a class="nav__link" href="#portfolio">Портфолио</a>
+                        </li>
+                        <li>
+                            <a class="nav__link" href="#contacts">Контакты</a>
+                        </li>
+                    </ul>
+                    <div class="nav-btn">
+                        <span></span>
+                    </div>
+                </nav>
+            </div>
+            <div class="header__content wow animate__animated animate__fadeInLeft">
+                <h3 class="header__subtitle">Привет!</h3>
+                <h1 class="header__title">Меня зовут Андрей</h1>
+                <p class="header__text">Я верстаю сайты, ты зашел на мой сайт-портфолио. <br>Листай ниже, там есть примеры моих работ</p>
+                <div class="header__btn-box">
+                    <a class="header__btn" href="#contacts">Связаться со мной</a>
+                </div>
+            </div>
+        </div>
+    </header>   
+    <main class="main">
+        <div class="container">
+            <section class="about" id="about">
+                <h2 class="title about__title">Обо мне</h2>
+                <div class="about__inner">
+                    <div class="about__img-box wow animate__animated animate__fadeInLeft">
+                        <img class="about__img" src="img/photo.jpg" alt="#">
+                    </div>
+                    <div class="about__content wow animate__animated animate__fadeInRight">
+                        <p class="text about__text">
+                            Меня зовут Андрей, мне 21 полных лет. Я активно погружен в изучение Frontend технологий и WEB разработки. В процессе учебы, я понял, что IT-отрасль мне очень интересна, что максимально эффективным я могу быть только здесь. И свою профессиональную деятельность я хочу связать только с миром Frontend-разработки.
+                        </p>
+                        <p class="text about__text">
+                            В данный момент углубленно изучаю JavaScript, в свободное время учу английский язык. Также постоянно ищу новые подходы и решения для лучшей реализации задач.
+                        </p>
+                        <p class="text about__text">
+                            При этом на данный момент обладаю следующими навыками: знаю HTML, CSS, применяю их современные технологии Flexbox и Grid, знаком с препроцессорами SASS и SCSS, применяю jQuery в своей работе, использую нэйминг по методологии БЭМ, знаком с семантической версткой, принципами работы GIT, GULP.
+                        </p>
+                        <p class="text about__text">
+                            Активно верстаю макеты по таким программам как Photoshop, Figma и др.
+                        </p>
+                        <p class="text about__text">
+                            Моя цель - стать полноценным frontend разработчиком, развиваться дальше, изучать новые фреймворки.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>  
+        <section class="technology" id="technology">
+            <div class="container">
+                <h2 class="title technology__title">Технологии, которыми я владею</h2>
+            </div>
+            <div class="slider-box wow animate__animated animate__zoomIn">
+                <div class="slider">
+                    <div class="slider__item">
+                        <img class="slider__item-img" src="img/html.png" alt="#">
+                    </div>
+                    <div class="slider__item">
+                        <img class="slider__item-img" src="img/css.png" alt="#">
+                    </div>
+                    <div class="slider__item">
+                        <img class="slider__item-img" src="img/js.png" alt="#">
+                    </div>
+                    <div class="slider__item">
+                        <img class="slider__item-img" src="img/sass.png" alt="#">
+                    </div>
+                    <div class="slider__item">
+                        <img class="slider__item-img" src="img/gupl.png" alt="#">
+                    </div>
+                    <div class="slider__item">
+                        <img class="slider__item-img" src="img/figma.png" alt="#">
+                    </div>
+                    <div class="slider__item">
+                        <img class="slider__item-img" src="img/ps.png" alt="#">
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <div class="container">
+            <section class="portfolio" id="portfolio">
+                <h2 class="title portfolio__title">Портфолио</h2>
+                <div class="portfolio__items">
+                    <div class="portfolio__item wow animate__animated animate__fadeInLeft">
+                        <img class="portfolio__item-img" src="img/site-1.jpg" alt="#">
+                        <a class="portfolio__item-link" href="pages/nura/index.html" target="_blank">Перейти на сайт</a>
+                    </div>
+                    <div class="portfolio__item wow animate__animated animate__fadeInRight">
+                        <img class="portfolio__item-img" src="img/site-2.jpg" alt="#">
+                        <a class="portfolio__item-link" href="pages/atlant/index.html" target="_blank">Перейти на сайт</a>
+                    </div>
+                    <div class="portfolio__item wow animate__animated animate__fadeInRight">
+                      <img class="portfolio__item-img" src="img/site-3.jpg" alt="#">
+                      <a class="portfolio__item-link" href="pages/welbex/index.html" target="_blank">Перейти на сайт</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main> 
+    <footer class="footer">
+        <nav class="footer__nav">
+            <ul class="footer__nav-list">
+                <li>
+                    <a class="footer__nav-link" href="#about">Обо мне</a>
+                </li>
+                <li>
+                    <a class="footer__nav-link" href="#technology">Технологии</a>
+                </li>
+                <li>
+                    <a class="footer__nav-link" href="#portfolio">Портфолио</a>
+                </li>
+                <li>
+                    <a class="footer__nav-link" href="#contacts">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="footer__contacts" id="contacts">
+            <ul class="footer__contacts-list">
+                <li>Контакты:</li>
+                <li>
+                    <a class="footer__contacts-link" href="mailto:endy_guff@mail.ru">endy_guff@mail.ru@mail.ru</a>
+                </li>
+                <li>Профиль GitHub:</li>
+                <li>
+                    <a class="footer__contacts-link" href="https://github.com/Endy-Guff">
+                        github.com/Endy-Guff
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__arrow-box">
+            <a class="footer__arrow-link" href="#home">
+                <div class="footer__arrow">
+                    <img class="footer__arrow-img" src="img/arrow.svg" alt="#">
+                </div>
+            </a>
+        </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+@font-face { 
+    font-family: 'NEXTART';
+    src: url('../fonts/NEXTART-regular.woff') format('woff'), url('../fonts/NEXTART-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face { 
+    font-family: 'NEXTART';
+    src: url('../fonts/NEXTART-semiBold.woff') format('woff'), url('../fonts/NEXTART-semiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face { 
+    font-family: 'NEXTART';
+    src: url('../fonts/NEXTART-bold.woff') format('woff'), url('../fonts/NEXTART-bold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
